@@ -1,6 +1,13 @@
 source 'https://rubygems.org'
 
-gem 'geocoder', '~> 1.2.11'
+gem 'tzinfo-data'
+
+gem 'httparty'
+
+gem 'geocoder'
+
+gem 'figaro'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
 # Use sqlite3 as the database for Active Record
